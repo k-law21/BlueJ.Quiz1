@@ -9,7 +9,9 @@ public class MathUtilities{
    * @return the sum of the two numbers
    */
   public Integer add(Integer baseValue, Integer valueToAdd){
-      return null;
+      return baseValue + valueToAdd;
+      
+      
   }
 
   /**
@@ -19,7 +21,9 @@ public class MathUtilities{
    * @return the sum of the two numbers
    */
   public Double add(Double baseValue, Double valueToAdd){
-      return null;
+      Double answer = baseValue + valueToAdd;
+      return answer;
+   
   }
 
   /**
@@ -28,7 +32,10 @@ public class MathUtilities{
    * @return the half of the number in double
    */
   public Double half(Integer number) {
-      return null;
+       
+      Double answer =  number * 0.5;
+      
+      return answer ;
   }
 
   /**
@@ -37,17 +44,21 @@ public class MathUtilities{
    * @return true if the number is odd, false if it is even
    */
   public Boolean isOdd(Integer number){
-      return null;
+      if (number %  2 != 0 ){
+      return true;}
+      else {
+          return false;
   }
 
-
+}
   /**
    * Multiply the number by itself
    * @param number the number given
    * @return the result of the number multiply by itself
    */
   public Integer square(Integer number) {
-      return null;
+     Integer answer = number*number;
+      return answer;
   }
 
 }
